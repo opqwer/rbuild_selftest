@@ -1,7 +1,5 @@
 name: Build images
 on:
-  schedule:
-    - cron: '0 0 * * SUN'
   workflow_dispatch:
   push:
     branches:
